@@ -1,0 +1,18 @@
+﻿DB Migration: 
+Tools--> Nuget Package Manager--> Package Manager Console
+ 
+PM> add-migration initcreate
+PM> update-database
+ 
+ 
+Check .Net Version:
+Press Windows + R.
+Type cmd.
+On the command prompt, type dotnet --version
+
+
+MySQL EF:
+Install-Package Pomelo.EntityFrameworkCore.MySql -Version 5.0.0
+dotnet add package Pomelo.EntityFrameworkCore.MySql --version 5.0.0
+
+
